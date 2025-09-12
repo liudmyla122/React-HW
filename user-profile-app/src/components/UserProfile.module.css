@@ -1,0 +1,45 @@
+.card {
+  background-color: #cef76f;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  margin: 40px auto;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.email,
+.phone {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #5b5b5b;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #c6c4c4;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #1a1a1a;
+}
+
+.button:hover {
+  background-color: #ccc;
+}
