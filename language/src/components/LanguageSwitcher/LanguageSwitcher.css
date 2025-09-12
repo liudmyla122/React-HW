@@ -1,0 +1,37 @@
+.language-switcher {
+  text-align: center;
+  background: white;
+  padding: 60px 80px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2rem;
+  color: #b794f6;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.switch-button {
+  background: linear-gradient(135deg, #9f7aea, #805ad5);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 180px;
+}
+
+.switch-button:hover {
+  background: linear-gradient(135deg, #805ad5, #6b46c1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(159, 122, 234, 0.4);
+}
+
+.switch-button:active {
+  transform: translateY(0);
+}
